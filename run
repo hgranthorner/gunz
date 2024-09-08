@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+set -e
+
+ninja -C ./build && ./build/gunz
